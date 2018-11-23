@@ -10,6 +10,6 @@ Vue.config.productionTip = false
 
 new Vue({
   router,
-  store,
+  store: new Vuex.Store(store),
   render: h => h(App)
 }).$mount('#app')
