@@ -3,6 +3,7 @@ import Vuex from 'vuex'
 import App from './App.vue'
 import router from './router'
 import * as store from './store'
+import './plugins/element.js'
 
 Vue.use(Vuex)
 Vue.config.productionTip = false
